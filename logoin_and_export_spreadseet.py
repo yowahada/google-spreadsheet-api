@@ -9,7 +9,7 @@ import csv
 import sys
 import urllib
 import json
-import real_data
+import get_data
 from oauth2client import file
 
 #spreadsheet&start position
@@ -56,7 +56,7 @@ args = parser.parse_args(sys.argv[1:])
 #data = list(r)
 
 #apiから抽出
-datas = real_data.Dataget()
+datas = get_data.Dataget()
 
 #append操作用のボディデータ
 body = {
