@@ -13,7 +13,7 @@ import get_data
 from oauth2client import file
 
 #spreadsheet&start position
-SPREADSHEET_ID = '1iMgRwd1xPLo4q9JgleCBbOq1W_SPKxBrCcMNishn67Y'
+SPREADSHEET_ID = ''
 RANGE_NAME = 'A1'
 MAJOR_DIMENSTION = 'ROWS'
 
